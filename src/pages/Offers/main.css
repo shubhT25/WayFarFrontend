@@ -1,0 +1,206 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60vh;
+  grid-gap: 10px;
+  margin-left: 15vw;
+  margin-top: 80px;
+  margin-bottom: 180px;
+  width: 68vw;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+
+.offer-usa .superSaver-image,
+.offer-usa .superSaver-text {
+  backface-visibility: hidden;
+  grid-row: 1/3;
+  height: 480px;
+  position: absolute;
+  text-align: justify;
+  transition: 1s;
+  width: 33.2vw;
+}
+
+.offer-usa .superSaver-image {
+  background: url("../../images/uss.jpeg") center;
+  background-size: cover;
+  transform: perspective(1000px);
+}
+
+.offer-usa .superSaver-text {
+  padding-top: 45px;
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.offer-usa:hover .superSaver-image {
+  transform: perspective(1000px) rotateY(-180deg);
+}
+
+.offer-usa:hover .superSaver-text {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.offer-dubai {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column: 2/3;
+  grid-gap: 8px;
+}
+
+.shopping-festival {
+  grid-column: 1 / 3;
+  height: 210px;
+  position: relative;
+}
+
+.shopping-festival .dubaiOffers-image,
+.shopping-festival .dubaiOffers-text {
+  backface-visibility: hidden;
+  height: 210px;
+  position: absolute;
+  transition: 1s;
+  width: 33.5vw;
+}
+
+.shopping-festival .dubaiOffers-image {
+  background: url("../../images/dubai_Offer.webp") center;
+  background-size: cover;
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.shopping-festival .dubaiOffers-text {
+  text-align: justify;
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.shopping-festival:hover .dubaiOffers-image {
+  transform: perspective(1000px) rotateY(-180deg);
+  z-index: 2;
+}
+
+.shopping-festival:hover .dubaiOffers-text {
+  transform: perspective(1000px) rotateY(0deg);
+  z-index: 1;
+}
+
+.india-offer {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 260px;
+  width: 16.2vw;
+}
+
+.india-offer .indiaOffer-image,
+.india-offer .indiaOffer-text {
+  backface-visibility: hidden;
+  height: 260px;
+  position: absolute;
+  transition: 1s;
+  width: 16.2vw;
+}
+
+.india-offer .indiaOffer-image {
+  background-image: url("../../images/taj.jpeg");
+  background-position: center;
+  background-size: cover;
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.india-offer .indiaOffer-text {
+  text-align: justify;
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.india-offer:hover .indiaOffer-image {
+  transform: perspective(1000px) rotateY(-180deg);
+  z-index: 2;
+}
+
+.india-offer:hover .indiaOffer-text {
+  transform: perspective(1000px) rotateY(0deg);
+  z-index: 1;
+}
+
+.france-offer {
+  grid-column: 2;
+  grid-row: 2/3;
+  height: 260px;
+  width: 16.2vw;
+}
+
+.france-offer .franceOffer-image,
+.france-offer .franceOffer-text {
+  backface-visibility: hidden;
+  height: 260px;
+  position: absolute;
+  transition: 1s;
+  width: 16.2vw;
+}
+
+.france-offer .franceOffer-image {
+  background: url("../../images/ParisOffer.jpeg") center top;
+  background-size: cover;
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.france-offer .franceOffer-text {
+  text-align: justify;
+  transform: perspective(1000px) rotateY(180deg);
+  z-index: 1;
+}
+
+.france-offer:hover .franceOffer-image {
+  transform: perspective(1000px) rotateY(-180deg);
+  z-index: 2;
+}
+
+.france-offer:hover .franceOffer-text {
+  transform: perspective(1000px) rotateY(0deg);
+  z-index: 1;
+}
+
+.franceOffer-image img {
+  height: 280px;
+  width: 100%;
+}
+
+.discountTag {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.dubaiOffers-heading {
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.indiaOffer-heading {
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.franceOffer-heading {
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.redCol {
+  color: rgb(160, 14, 14);
+  font-weight: 600;
+}

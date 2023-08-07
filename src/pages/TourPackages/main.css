@@ -1,0 +1,74 @@
+/* Tour packages styling */
+
+.package-main table {
+    margin: 30px auto;
+    /* margin-left: 85px; */
+    text-align: center;
+    width: 80%;
+    height: 90%;
+}
+
+.package-main {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.package-footer {
+    margin-top: 70px;
+}
+
+.wc {
+    text-align: center;
+    width: 80px;
+}
+
+.package-main th,
+.package-main td {
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.package-main th {
+    background-color: rgb(121, 62, 62);
+    color: white;
+}
+
+.qtr {
+    font-size: 12px !important;
+}
+
+.package-main .alt1 {
+    background-color: rgb(243, 226, 226);
+    color: rgb(38, 34, 34);
+}
+
+.package-main .alt2 {
+    background-color: rgb(204, 163, 163);
+    color: rgb(38, 34, 34);
+}
+
+.package-main .tag {
+    color: rgb(121, 62, 62);
+    float: right;
+    font-size: 12px;
+    margin-right: 83px;
+}
+
+.package-main .head {
+    color: rgb(121, 62, 62);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.mobile_view {
+    display: none;
+}
+
+.package-main .tag {
+    margin-right: 30px;
+    margin-top: 20px;
+}

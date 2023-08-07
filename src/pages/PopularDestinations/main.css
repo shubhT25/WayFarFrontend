@@ -1,0 +1,292 @@
+/* Styling for popular destinations page */
+
+.destination-card-holder {
+  margin-top: 70px;
+}
+
+.d-form {
+  display: block;
+  width: 80%;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.d-cards {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-card {
+  border-radius: 10px;
+  font-family: "Abel", sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  height: 20vw;
+  text-align: center;
+  width: 30vw;
+  position: relative;
+}
+
+.d-card:hover {
+  opacity: 0.8;
+}
+
+.d-card>span {
+  text-decoration: none;
+  color: hotpink;
+  position: relative;
+  /* left: 15%; */
+  top: 25%;
+  cursor: pointer;
+}
+
+.d-card>span:hover {
+  margin-top: 100px;
+  text-decoration: underline;
+}
+
+.india {
+  background: url(../../images/agrathumbnail.webp) no-repeat center;
+  background-size: cover;
+}
+
+.france {
+  background: url(../../images/france.webp) no-repeat center;
+  background-size: cover;
+}
+
+.usa {
+  background: url(../../images/America.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.uae {
+  background: url(../../images/Dubai.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.singapore {
+  background: url(../../images/Singapore.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.thailand {
+  background: url(../../images/Thailand.webp) no-repeat center;
+  background-size: cover;
+}
+
+input[id='search'] {
+  width: 77%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid rgb(121, 62, 62);
+}
+
+input[id='search']:focus {
+  width: 77%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  /* box-shadow: 0 0 1px rgba(81, 203, 238, 1); */
+  border-bottom: 1px solid rgba(81, 203, 238, 1);
+}
+
+button[id="searchButton"] {
+  width: 20%;
+  padding: 10px;
+  background: rgb(121, 62, 62);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+.place-col {
+  float: left;
+  padding: 5px;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  margin: 20px;
+  grid-template-columns: 50% 50%;
+  row-gap: 15px;
+  margin-bottom: 40px;
+  margin-left: 5vw;
+}
+
+.place-row {
+  margin-right: 18px;
+  margin-top: 75px;
+}
+
+.place-head {
+  font-weight: 600;
+  margin-left: 28px;
+}
+
+.place-head span {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.place-head span:hover {
+  border-bottom: solid 1px rgb(121, 62, 62);
+}
+
+/* Style the counter cards */
+.see-more {
+  color: blue;
+  cursor: pointer;
+}
+
+button.like {
+  height: 30px;
+  color: rgba(0, 150, 136, 1);
+  border: none;
+  background: none;
+  border-color: rgba(0, 150, 136, 1);
+  font-size: 20px;
+}
+
+
+button.like:hover {
+  height: 30px;
+  color: rgba(0, 150, 136, 1);
+  border: none;
+  background: none;
+  border-color: rgba(0, 150, 136, 1);
+  font-size: 20px;
+}
+
+button.dislike {
+  height: 30px;
+  color: rgba(255, 82, 82, 1);
+  border: none;
+  background: none;
+  border-color: rgba(255, 82, 82, 1);
+  font-size: 20px;
+}
+
+button.dislike:hover {
+  height: 30px;
+  color: rgba(255, 82, 82, 1);
+  border: none;
+  background: none;
+  border-color: rgba(255, 82, 82, 1);
+  font-size: 20px;
+}
+
+.fa-enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.fa-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.like span {
+  color: #009688;
+  position: relative;
+}
+
+.dislike span {
+  color: rgba(255, 82, 82, 1);
+  position: relative;
+}
+
+.enclosure {
+  float: right;
+  margin-top: 20px;
+  position: relative;
+}
+
+.place-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 430px;
+  /* margin-left: 3.5vw; */
+  width: 40vw;
+  padding: 16px;
+}
+
+.place-container {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+.place-card:hover {
+  box-shadow: 0 8px 16px 0;
+}
+
+.place-image {
+  position: relative;
+  height: 60%;
+  width: 100%;
+}
+
+.place-card img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: block;
+  height: 100%;
+  transition: 0.5s ease;
+  width: 100%;
+}
+
+.place-text {
+  color: white;
+  font-size: 50px;
+  opacity: 0;
+  position: relative;
+  left: 25%;
+  bottom: 60%;
+}
+
+
+.place-image:hover img {
+  opacity: 0.5;
+}
+
+.place-image:hover .place-text {
+  opacity: 1;
+}
+
+/*cities*/
+
+.city-row {
+  display: grid;
+  margin-top: 75px;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+
+.city-column {
+  margin-top: 20px;
+  /* margin-left: 70px; */
+  width: 90%;
+  text-align: justify;
+}
+
+.city-column>p, .city-column>iframe{
+  margin-left: 50px;
+}
+

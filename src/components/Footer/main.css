@@ -1,0 +1,30 @@
+footer {
+    background-color: rgb(121, 62, 62);
+    bottom: 0;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer span {
+    color: white;
+    font-size: 12px;
+  }
+
+  .footer-links>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  
+  .footer-links {
+    float: right;
+    padding-right: 20px;
+  }

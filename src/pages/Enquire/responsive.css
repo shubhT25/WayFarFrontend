@@ -1,0 +1,8 @@
+@media screen and (min-width: 430px) and (max-width:776px) {
+    .enquire-main>input[type="text"], .enquire-main>input[type="email"], #citi {
+        width: 80vw;
+    }
+    .enquire-main>input[type="number"] {
+        width: 38.4vw;
+    }
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width: 940px) {
+  .carousel {
+    margin-top: 8% ;
+  }
+
+  .slideshow {
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 80%;
+  }
+
+  div.welcome {
+    margin-top: 70px;
+    margin-left: 30px;
+    border: none;
+    float: left;
+  }
+
+  .slideshow img {
+    height: 300px;
+  }
+
+  .slideshow {
+    height: 320px;
+  }
+
+}
+
+@media screen and (min-width: 0) and (max-width: 769px) {
+
+  .card-holder {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 70%;
+    margin-bottom: 15px;
+  }
+  
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1269px) {
+
+  .card-text h2 {
+    font-size: 25px;
+  }
+
+  .card-text p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 80%;
+  }
+  
+  .card-head {
+    text-align: center;
+    font-size: 80%;
+  }
+
+  .card-button {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 316px) {
+
+  .card-head {
+    font-size: 85%;
+    margin-bottom: 5px;
+  }
+  
+  .card-text>p{
+    font-size: 18px;
+  }
+}

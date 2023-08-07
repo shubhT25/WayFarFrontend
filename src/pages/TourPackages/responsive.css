@@ -1,0 +1,121 @@
+@media screen and (max-width: 730px) {
+    table {
+        display: none;
+    }
+    .mobile_view {
+        display: grid;
+        row-gap: 20px;
+        width: 80vw;
+        justify-content: center;
+        margin-left: 9.5vw;
+        align-items: center;
+        font-size: smaller;
+    }
+    .package-main .head {
+        margin: 20px auto;
+        font-size: 25px;
+    }
+    .packages {
+        display: grid;
+        grid-template-columns: 36vw 54vw;
+        row-gap: 10px;
+        background-color: rgb(243, 226, 226);
+    }
+    .ingrid {
+        display: grid;
+        justify-content:flex-start;
+        align-items: center;
+        margin-top: 6vw;
+        font-size: 2vw;
+        margin-bottom: 5px;
+    }
+    .type>h2{
+        padding-top: 5px;
+        padding-left: 10px;
+        color: rgb(121, 62, 62);
+        font-size: 2.7vw;
+    }
+    p {
+        color: rgb(121, 62, 62);
+        margin-left: 5vw;
+    }
+    hr {
+        border: 5px solid rgb(121, 62, 62);
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .package-main .head {
+        margin: 10px auto;
+        font-size: 5.5vw;
+    }
+
+    .type>h2{
+        font-size: 4.8vw;
+    }
+
+    .packages {
+        display: grid;
+        row-gap: 5px;
+        grid-template-columns: 80vw;
+    }
+    .ingrid{
+        font-size: 3.5vw;
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+    .package-main .tag {
+        font-size: 3vw;;
+        margin-left: 5px;
+        margin-right: 8px;
+        margin-top: 10px;
+    }
+}
+
+@media  screen and (min-width: 392px) and (max-width: 440px) {
+
+    .package-main .head {
+        margin: 10px auto;
+        font-size: 5.2vw;
+    }
+
+    .type>h2{
+        font-size: 4.5vw;
+    }
+
+    .packages {
+        display: grid;
+        row-gap: 5px;
+        grid-template-columns: 80vw;
+    }
+    .ingrid{
+        font-size: 3.2vw;
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media  screen and (min-width: 441px) and (max-width: 489px) {
+
+    .package-main .head {
+        margin: 10px auto;
+        font-size: 4.8vw;
+    }
+
+    .type>h2{
+        font-size: 4.1vw;
+    }
+
+    .packages {
+        display: grid;
+        row-gap: 5px;
+        grid-template-columns: 80vw;
+    }
+    .ingrid{
+        font-size: 2.8vw;
+        margin-top: 2px;
+        margin-left: 20px;
+    } 
+}
