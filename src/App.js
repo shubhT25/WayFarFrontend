@@ -60,6 +60,7 @@ function App() {
     <BrowserRouter>
       <Header />
         <Routes>
+          <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/popularDestinations" element={<PopularDestinations />} />
           <Route path="/popularDestinations/India" element={<India />}/>
