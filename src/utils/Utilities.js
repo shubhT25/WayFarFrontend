@@ -52,23 +52,15 @@ export class Utilities {
 
   //get user by email id
   static getUser = async ({ email }) => {
-    console.log("get1")
     const response = await fetch("https://warfarback.onrender.com/users");
-    console.log("get2")
     const users = await response.json();
-    console.log(users[1])
-    console.log("get3")
     // check if users exist
     if (users.length > 0) {
       // then find
-      console.log("get4", email)
       const userFound = await users.find((eachUser) => eachUser.email === email);
-      console.log(userFound)
       if (userFound) {
-        console.log(userFound)
         return userFound; // user exists, then return that user
       } else {
-        console.log("get5")
         return false; //user not found
       }
     }

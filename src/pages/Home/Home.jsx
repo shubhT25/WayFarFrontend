@@ -82,7 +82,6 @@ const Home = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      console.log("render");
       setCurrentIndex((currentIndex + 1) % photos.length);
     }, 3000);
     return () => clearInterval(timer);

@@ -63,7 +63,6 @@ const Singapore = () => {
 
   const Action = (element) => {
     const city = cities[Number(element.target.id) - 1];
-    console.log(city.flag);
     if (!city.flag) {
       if (element.target.className === "fa fa-thumbs-o-up") {
         element.target.className = "fa fa-thumbs-up";
