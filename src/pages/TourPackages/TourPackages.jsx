@@ -95,7 +95,7 @@ const TourPackages = () => {
         </tbody>
       </table>
       <div id="content" class="mobile_view">
-        <div class="heading">\
+        <div class="heading">
           <h1 class="head">Tour Packages</h1>
           <hr />
         </div>

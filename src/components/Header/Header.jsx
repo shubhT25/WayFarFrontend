@@ -90,6 +90,8 @@ const Header = () => {
               onClick={() => {
                 const nav = document.getElementsByClassName("nav-links");
                 nav[0].classList.add("disable-nav");
+                const navbtn = document.getElementsByClassName("nav-btn");
+                navbtn[0].classList.add("disable-nav");
                 localStorage.removeItem("userName");
                 navigate("/login");
               }}

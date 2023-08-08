@@ -26,6 +26,8 @@ const Login = () => {
         localStorage.setItem("userName", user.name);
         const nav = document.getElementsByClassName("nav-links");
         nav[0].classList.remove("disable-nav");
+        const navbtn = document.getElementsByClassName("nav-btn");
+        navbtn[0].classList.remove("disable-nav");
         navigate("/home");
       })
       .catch((err) => {
