@@ -18,7 +18,6 @@ const Login = () => {
         if (user) {
           return user;
         } else {
-          console.log("No user");
           throw new Error("Please register before you login");
         }
       })
